@@ -6,11 +6,10 @@ import io.netty.buffer.ByteBuf;
 
 public interface IByteBufAdapter<T> {
 
-  void saveValue(final ByteBuf buf, T value);
+    void saveValue(final ByteBuf buf, T value);
 
-  @Nullable
-  T readValue(final ByteBuf buf);
+    @Nullable
+    T readValue(final ByteBuf buf);
 
-  String getName();
-
+    String getName();
 }

@@ -4,6 +4,5 @@ import info.loenwind.autoconfig.factory.ValueFactory;
 
 public final class Config {
 
-  public static final ValueFactory F = new ValueFactory("dummy");
-
+    public static final ValueFactory F = new ValueFactory("dummy");
 }

@@ -4,6 +4,5 @@ import net.minecraftforge.common.config.Configuration;
 
 public interface IRootFactory extends IFactory {
 
-  void setConfig(Configuration config);
-
+    void setConfig(Configuration config);
 }

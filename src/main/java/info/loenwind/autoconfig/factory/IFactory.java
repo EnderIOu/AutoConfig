@@ -4,18 +4,17 @@ import net.minecraftforge.common.config.Configuration;
 
 public interface IFactory {
 
-  IValueFactory section(String section);
+    IValueFactory section(String section);
 
-  String getModid();
+    String getModid();
 
-  String getSection();
+    String getSection();
 
-  boolean isInInit();
+    boolean isInInit();
 
-  void addValue(AbstractValue<?> value);
+    void addValue(AbstractValue<?> value);
 
-  int getGeneration();
+    int getGeneration();
 
-  Configuration getConfig();
-
+    Configuration getConfig();
 }
